@@ -1,0 +1,24 @@
+{
+  "name": "@polymech/pm-vfs",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone VFS jail and pm-vfs CLI. HTTP is the serve command; ACL is a separate package.",
+  "scripts": {
+    "configure": "node ../../scripts/cmake.mjs --preset dev",
+    "configure:release": "node ../../scripts/cmake.mjs --preset release",
+    "build:cpp": "npm run configure && node ../../scripts/cmake.mjs --build --preset dev --target pm-vfs",
+    "build:cpp-fast": "node ../../scripts/cmake.mjs --build --preset dev --target pm-vfs",
+    "build:cpp:release": "npm run configure:release && node ../../scripts/cmake.mjs --build --preset release --target pm-vfs",
+    "test": "node tests/run.mjs",
+    "test:path": "node tests/test-path.mjs",
+    "test:config": "node tests/test-config.mjs",
+    "test:basic": "node tests/test-basic.mjs",
+    "test:copy": "node tests/test-copy.mjs",
+    "test:binds": "node tests/test-binds.mjs",
+    "test:quota": "node tests/test-quota.mjs",
+    "test:http": "node tests/test-http.mjs",
+    "serve": "node scripts/serve.mjs",
+    "test:build": "npm run build:cpp && npm test"
+  }
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "root",
+    "type": "fs",
+    "path": "fixtures/vfs",
+    "searchable": false
+  },
+  {
+    "name": "assets",
+    "type": "fs",
+    "path": "fixtures/vfs-assets",
+    "searchable": false
+  },
+  {
+    "name": "machines",
+    "type": "fs",
+    "path": "fixtures/vfs-machines",
+    "searchable": true
+  },
+  {
+    "name": "firmware",
+    "type": "fs",
+    "path": "fixtures/vfs-firmware",
+    "searchable": true
+  },
+  {
+    "name": "deepbind",
+    "type": "fs",
+    "path": "fixtures/vfs-deep",
+    "searchable": false
+  },
+  {
+    "name": "ch1",
+    "type": "fs",
+    "path": "fixtures/vfs-ch1",
+    "searchable": false
+  },
+  {
+    "name": "ch2-shared",
+    "type": "fs",
+    "path": "fixtures/vfs-ch2-shared",
+    "searchable": false
+  },
+  {
+    "name": "ch3",
+    "type": "fs",
+    "path": "fixtures/vfs-ch3",
+    "searchable": false
+  },
+  {
+    "name": "ch3-shared",
+    "type": "fs",
+    "path": "fixtures/vfs-ch3-shared",
+    "searchable": false
+  },
+  {
+    "name": "ch3copy",
+    "type": "fs",
+    "path": "fixtures/vfs-ch3copy",
+    "searchable": false
+  },
+  {
+    "name": "ch3copydst",
+    "type": "fs",
+    "path": "fixtures/vfs-ch3copy-dst",
+    "searchable": false
+  }
+]

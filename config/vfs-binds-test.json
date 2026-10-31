@@ -1,0 +1,32 @@
+[
+  {
+    "id": "root-assets",
+    "source": { "mount": "assets" },
+    "target": { "mount": "root", "path": "assets" },
+    "acl": "source"
+  },
+  {
+    "id": "home-assets",
+    "source": { "mount": "assets" },
+    "target": { "mount": "home", "path": "assets" },
+    "acl": "source"
+  },
+  {
+    "id": "machines-firmware",
+    "source": { "mount": "firmware" },
+    "target": { "mount": "machines", "path": "firmwareout" },
+    "acl": "source"
+  },
+  {
+    "id": "root-deep",
+    "source": { "mount": "deepbind" },
+    "target": { "mount": "root", "path": "real-dir/level1/level2" },
+    "acl": "source"
+  },
+  {
+    "id": "root-shared",
+    "source": { "mount": "ch2-shared" },
+    "target": { "mount": "root", "path": "shared" },
+    "readonly": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "root-assets",
+    "source": { "mount": "assets" },
+    "target": { "mount": "root", "path": "assets" },
+    "acl": "source"
+  },
+  {
+    "id": "home-assets",
+    "source": { "mount": "assets" },
+    "target": { "mount": "home", "path": "assets" },
+    "acl": "source"
+  }
+]
